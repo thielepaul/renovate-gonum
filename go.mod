@@ -1,7 +1,9 @@
 module github.com/thielepaul/renovate-gonum
 
-go 1.19
+go 1.21
 
-require gonum.org/v1/gonum v0.11.0
+toolchain go1.22.1
 
-require golang.org/x/exp v0.0.0-20221230185412-738e83a70c30 // indirect
+require gonum.org/v1/gonum v0.15.0
+
+require golang.org/x/exp v0.0.0-20231110203233-9a3e6036ecaa // indirect
